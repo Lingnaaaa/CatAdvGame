@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Interact
+  - Fish
+  - Spike
   layers:
   - Default
   - TransparentFX
