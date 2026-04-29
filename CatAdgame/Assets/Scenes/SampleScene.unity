@@ -181,7 +181,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7, y: 3}
+  m_Size: {x: 6, y: 3}
   m_EdgeRadius: 0
 --- !u!212 &200175260
 SpriteRenderer:
@@ -1359,7 +1359,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 10.13
+  orthographic size: 11.75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1735,7 +1735,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 10, y: 5}
+  m_Size: {x: 10, y: 3}
   m_EdgeRadius: 0
 --- !u!50 &739021213
 Rigidbody2D:
@@ -3139,7 +3139,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9, y: 7}
+  m_Size: {x: 8, y: 7}
   m_EdgeRadius: 0
 --- !u!212 &1454270041
 SpriteRenderer:
@@ -3447,7 +3447,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 10, y: 3}
+  m_Size: {x: 8, y: 3}
   m_EdgeRadius: 0
 --- !u!212 &1931181108
 SpriteRenderer:
