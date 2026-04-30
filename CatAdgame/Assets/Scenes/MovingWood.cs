@@ -17,6 +17,7 @@ public class MovingWood : MonoBehaviour
     {
         // When the board reach the distance(set at first), then Mathf.PingPong will
         //let the board return to the initial position
+        //Currently position is calculate by Time.time * speed
         float movement = Mathf.PingPong(Time.time * speed, distance);
 
         // Adding in X-axis, moving horizontally

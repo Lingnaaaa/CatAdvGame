@@ -5,7 +5,7 @@ public class Win : MonoBehaviour
 {
     public GameObject winPanel;
 
-    // When this player touch something is trigger
+    // When this player touch item has Box Collider 2D and cat or item is trigger
     void OnTriggerEnter2D(Collider2D other)
     {
         //If the object's tag is Fish
