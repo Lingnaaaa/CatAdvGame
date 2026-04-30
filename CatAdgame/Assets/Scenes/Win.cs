@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // TextMeshPro (I used it in the UI so I need it in this line)
+using TMPro; // TextMeshPro (I used it in the UI Page so I need it in this line)
 
 public class Win : MonoBehaviour
 {
@@ -11,12 +11,12 @@ public class Win : MonoBehaviour
         //If the object's tag is Fish
         if (other.CompareTag("Fish"))
         {
-            Debug.Log("Win!");
+            Debug.Log("Win!"); //Print Win! at console
             
-            // Appear the "You Win" page
+            // Appear the "You Win" UI page
             winPanel.SetActive(true);
             
-            // 2. disappear the fish
+            //disappear the fish
             Destroy(other.gameObject);
             
         }

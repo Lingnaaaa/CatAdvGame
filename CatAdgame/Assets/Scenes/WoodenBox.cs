@@ -5,7 +5,7 @@ public class WoodenBox : MonoBehaviour
     // this code runs when the box is hit
     void OnCollisionEnter2D(Collision2D other)
     {
-        // If is the player (Cat) crash the box
+        // If is the tag is player (Cat) crash the box
         if (other.gameObject.tag == "Player")
         {
             // If player's position is under the box

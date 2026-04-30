@@ -1,8 +1,9 @@
 using UnityEngine;
 
 public class MovingWoodUp : MonoBehaviour
+//Almost same as MovingWood.cs. 
+//In the end of code, the movement adding on Y-axis, so moving vertically
 {
-    [Header("Moving Up setting")]
     public float speed = 2.0f;  
     public float distance = 3.0f;
 
@@ -10,7 +11,6 @@ public class MovingWoodUp : MonoBehaviour
 
     void Start()
     {
-        //initial Position (use to calculate the distance)
         startPos = transform.position;
     }
 
@@ -18,7 +18,6 @@ public class MovingWoodUp : MonoBehaviour
     {
         float movement = Mathf.PingPong(Time.time * speed, distance);
 
-        // Moving back to initial position
         transform.position = new Vector2(startPos.x, startPos.y + movement);
     }
 }
